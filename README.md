@@ -25,8 +25,25 @@ Easily manage, backup, and restore your **n8n workflows** using a secure **Teleg
 ## 📥 One-Line Installation
 
 ```bash
+
+For Linux (Debian/Ubuntu-based distributions):
 sudo apt update
 sudo apt install curl
+
+
+For Linux (RHEL/CentOS/Fedora-based distributions):
+sudo yum install curl
+# Or for newer Fedora/RHEL versions:
+sudo dnf install curl
+
+For macOS:
+bash --version
+curl --version
+/bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/HEAD/install.sh)"
+brew install curl
+
+For Windows:
+wsl --install
 
 
 curl -fsSL https://raw.githubusercontent.com/webclasher/n8n-Telegram-Bot-Installer-Final-Version-Pro/refs/heads/main/install.sh | sudo bash -s \
