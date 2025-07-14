@@ -25,7 +25,7 @@ Easily manage, backup, and restore your **n8n workflows** using a secure **Teleg
 ## 📥 One-Line Installation
 
 ```bash
-curl -fsSL https://raw.githubusercontent.com/webclasher/YOUR_REPO/main/install.sh | sudo bash -s \
+curl -fsSL https://raw.githubusercontent.com/webclasher/n8n-Telegram-Bot-Installer-Final-Version-Pro/refs/heads/main/install.sh | sudo bash -s \
   "n8n.yourdomain.com" \
   "you@example.com" \
   "YOUR_TELEGRAM_BOT_TOKEN" \
