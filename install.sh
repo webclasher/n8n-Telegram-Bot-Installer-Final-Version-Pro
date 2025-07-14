@@ -2,7 +2,7 @@
 # ─────────────────────────────────────────────────────────────
 # n8n Telegram Bot Installer – Final Version (Pro)
 # Usage:
-# curl -fsSL https://raw.githubusercontent.com/webclasher/YOUR_REPO/main/install.sh | sudo bash -s \
+# curl -fsSL https://raw.githubusercontent.com/webclasher/n8n-Telegram-Bot-Installer-Final-Version-Pro/main/install.sh | sudo bash -s \
 #   "n8n.yourdomain.com" "you@example.com" "BOT_TOKEN" "USER_ID"
 # ─────────────────────────────────────────────────────────────
 
@@ -48,7 +48,7 @@ mkdir -p "$BACKUP_DIR"
 
 # Download bot script
 echo -e "\n📥 Downloading bot script from GitHub..."
-curl -fsSL https://raw.githubusercontent.com/webclasher/n8n-telegram-bot-installer-final-version-pro/refs/heads/main/n8n_bot.py -o "$BOT_DIR/n8n_bot.py"
+curl -fsSL https://raw.githubusercontent.com/webclasher/n8n-Telegram-Bot-Installer-Final-Version-Pro/refs/heads/main/n8n_bot.py -o "$BOT_DIR/n8n_bot.py"
 
 # Save bot credentials to env file
 echo -e "\n🔐 Writing bot configuration..."
